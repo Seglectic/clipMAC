@@ -1,5 +1,5 @@
 Periodically I'll need a local system's MAC address, either for setting up Wake-On-LAN or confirming router port forwarding settings. 
-It's not hard to retrieve your systems MAC, and nowadays router UIs will display it readily but sometimes that's slightly more effort than I would want so I decided to make
+It's not hard to retrieve it and nowadays router UIs will display it readily, but it's slightly more effort than I want so I decided to make
 # clipMAC
 Simple script that sends the MAC address of the active network connection to the system clipboard.
 
