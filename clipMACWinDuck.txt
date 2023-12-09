@@ -1,0 +1,16 @@
+DELAY 500
+REM Open PowerShell
+DELAY 500
+REM Pressing Win key and typing PowerShell
+WINDOWS r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 1000
+REM Running the PowerShell script to retrieve and copy the MAC address
+STRING "Get-NetAdapter | Where-Object { $_.Status -eq 'Up' } | ForEach-Object { $_.MacAddress | Set-Clipboard }"
+ENTER
+DELAY 1000
+REM Closing PowerShell window
+STRING exit
+ENTER
