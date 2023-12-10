@@ -1,5 +1,5 @@
 Periodically I'll need a local system's MAC address, either for setting up Wake-On-LAN or confirming router port forwarding settings. 
-It's not hard to retrieve it and nowadays router UIs will display it readily, but it's slightly more effort than I want so I decided to make something I could put on a flashdrive or run from my Flipper Zero that will just plop the address in the system clipbord.
+It's not hard to retrieve it and nowadays router UIs will display it readily, but it's slightly more effort than I want so I decided to make something I could put on a flashdrive or run from my Flipper Zero that will just plop the address in the system clipboard.
 
 # clipMAC
 Simple script that sends the MAC address of the active network connection to the system clipboard.
